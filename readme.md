@@ -11,6 +11,7 @@ cd /usr/local
 sudo wget http://mirror.apache-kr.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
 sudo tar -xvf apache-maven-3.6.3-bin.tar.gz
 sudo ln -s apache-maven-3.6.3 maven
+sudo vi ~/.bachrc 
 export MAVEN_HOME=/usr/local/maven
 PATH=$PATH:$HOME/bin:$MAVEN_HOME/bin
 export PATH
@@ -29,6 +30,11 @@ kill 15235
 ~~~
 
 이렇게 2개 생성
+
+환경변수를 영구적으로 적용하는 방법
+https://sosobaba.tistory.com/279
+환견변수 설정방법
+https://www.hanumoka.net/2018/04/30/centOs-20180430-centos-install-jdk/
 
 # Load Balancer 설정
 
